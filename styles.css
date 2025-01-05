@@ -1,0 +1,114 @@
+/* General reset and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and background color */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+}
+
+/* Header and logo */
+header {
+  background-color: navy;
+  padding: 20px;
+  text-align: center;
+  justify-content: space-around;
+  display: flex;
+  
+}
+.p{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #f4f4f4;
+}
+
+.p:hover{
+  color: black;
+
+}
+header .logo img {
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('hero_image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(0, 102, 171);
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: rgb(204, 224, 255);
+  color: navy;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #555;
+  color: white;
+}
+
+/* Product Section */
+.product {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #dbdbdb;
+}
+
+.product .product-image img {
+  max-width: 50%;
+  border-radius: 10px;
+}
+
+.product-description {
+  max-width: 40%;
+  padding: 20px;
+}
+
+.product-description h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.product-description p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: navy;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
